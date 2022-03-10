@@ -1,28 +1,124 @@
-languageCode = "en-us"
-defaultContentLanguage = "en"
-enableRobotsTXT = true
-enableEmoji = true
+# Page settings
+
+baseURL = "http://example.org/"
+languageCode = "en"
+title = "Abegail Ada Montemayor"
+theme = "hugo-devresume-theme"
 publishDir = "docs"
 
-theme = "almeida-cv"
-disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
-
-baseURL = "https://plukabegailadamontemayor.github.io/"
-title = "Abegail Ada Montemayor"
-#googleAnalytics = ""
 
 [params]
-enableMetaTags = true
-colorLight = "#fff"
-colorDark = "#666"
-colorPageBackground = "#ddd"
-colorPrimary = "#e3bfb8"
-colorSecondary = "#aaa"
-colorIconPrimary = "#fff"
-colorIconBackground = "#e3bfb8"
-colorRightColumnBackground = "#f5f5f5"
-colorRightColumnHeadingText = "#666"
-colorRightColumnBodyText = "#666"
-colorRightColumnIconPrimary = "#fff"
-colorRightColumnIconBackground = "#e3bfb8"
-pages = 1
+    author = "AdaventuresPH"
+    description = "Abegail Ada Montemayor CV"
+
+    primaryColor = "#b55357"
+    textPrimaryColor = "#292929"
+
+
+    [params.profile]
+        enable = true
+        name = "Abegail Ada Calayo Montemayor"
+        tagline = "Finance Coach"
+        avatar = "avatar.png"
+
+
+    [params.contact]
+        enable = true
+        location = "Philippines"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+639077202400"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "plukabegailadamontemayor@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://www.prulifeuk.com.ph"
+        text = "www.prulifeuk.com.ph"
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "BS in Electronics Engineering"
+        university = "Bicol University Polangui Campus"
+        dates = "2010 - 2015"
+
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "National Achievers Club Awardee 2019,2020 & 2021"
+        body = "Pru Life UK"
+        [[params.awards.list]]
+        name = "Pru Quality Circle Awardee 2019 & 2020"
+        body = "Pru Life UK"
+        [[params.awards.list]]
+        name = "Pru Orphan Guardian Qualifier"
+        body = "Pru Life UK"
+        [[params.awards.list]]
+        name = "Sectoral Achievers Club Awardee 2018"
+        body = "Pru Life UK"
+        [[params.awards.list]]
+        name = "Prudential Life Club Awardee (9 Star)"
+        body = "Pru Life UK"
+        [[params.awards.list]]
+        name = "Certified Investment Advisor"
+        body = "Pru Life UK"
+        [[params.awards.list]]
+        name = "Associate Wealth Planner"
+        body = "Pru Life UK"
+        [[params.awards.list]]
+        name = "Associate Estate Planner"
+        body = "Pru Life UK"
+
+
+    [params.summary]
+        enable = true
+        text = "I help people engineer a better future through prudent financial planning"
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Assistant Unit Manager"
+        dates = "2019 - Present"
+        company = "Pru Life UK"
+        [[params.experience.list.items]]
+        details = "Teaches Filipinos to be financially independent"
+        [[params.experience.list.items]]
+        details = "Existing 140+ of client portfolio with 250+M Sum Assured"
+        [[params.experience.list.items]]
+        details = "Manages Finance Page, Sincerly Yours,Ada"
+
+        [[params.experience.list]]
+        title = "Product Configuration Engineer"
+        dates = "2016 - 2018"
+        company = "Huawei"
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        url = "//linkedin.com/in/abegail-ada-montemayor"
+        title = "LinkedIn"
+        [[params.social.list]]
+        url = "//instagram.com/adaventuresph"
+        title = "Instagram"
+        [[params.social.list]]
+        url = "//facebook.com/abegailada.montemayor"
+        title = "Facebook"
+
+
+
+
+
