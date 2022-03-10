@@ -2,12 +2,13 @@ languageCode = "en-us"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
 enableEmoji = true
+publishDir = "docs"
 
 theme = "almeida-cv"
 disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
 
-baseURL = "https://example.com/"
-title = "Example - CV"
+baseURL = "https://plukabegailadamontemayor.github.io/"
+title = "Abegail Ada Montemayor"
 #googleAnalytics = ""
 
 [params]
